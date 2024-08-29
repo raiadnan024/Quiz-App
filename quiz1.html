@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Question 1</title>
+    <link rel="stylesheet" href="quizq1.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="question" id="q1">
+            <h1>1. What does the `window.open()` method do in JavaScript?</h1>
+            <div class="options">
+                <input type="radio"id="optionA" name="q1" value="A">
+                <label for="optionA" >A) It opens a new HTML document in the same window.</label><br>
+                <input type="radio" id="optionB" name="q1" value="B">
+                <label for="optionB">B) It opens a new HTML document in a new window or tab.</label><br>
+                <input type="radio" id="optionC" name="q1" value="C">
+                <label for="optionC">C) It closes the current HTML document.</label><br>
+                <input type="radio" id="optionD" name="q1" value="D">
+                <label for="optionD">D) It does not close any HTML document.</label>
+            </div>
+            <button id="nextBtn" onclick="submitanswer1()">Next</button>
+           <!--<button id="nextBtn" onclick="navigate(1)">Next</button>--> 
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quizq1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="question">
+            <h1>Answer the Following Questions</h1>
+            <div class="q1">
+                <label for="q1">1. What does the `window.open()` method do in JavaScript?</label>
+                <div class="options">
+                    <input type="radio" onclick="check('A')" id="q1a" name="q1" value="A">
+                    <label for="q1a">A) It opens a new HTML document in the same window.</label><br>
+
+                    <input type="radio" onclick="check('B')" id="q1b" name="q1" value="B">
+                    <label for="q1b">B) It opens a new HTML document in a new window or tab.</label><br>
+
+                    <input type="radio" onclick="check('C')" id="q1c" name="q1" value="C">
+                    <label for="q1c">C) It closes the current HTML document.</label><br>
+
+                    <input type="radio" onclick="check('D')" id="q1d" name="q1" value="D">
+                    <label for="q1d">D) It does not close any HTML document.</label>
+                </div>
+                <button id="nextBtn" onclick="showNextQuestion()">Next</button>
+            </div>
+        </div>
+        <div id="score">Score: 0</div>
+    </div>
+    <script src="quiz1.js"></script>
+</body>
+</html> -->

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Quiz App</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome to the Direct Support Quiz</h1>
+        </div>
+        <form class="information" onsubmit="return validateForm()">
+            <label for="user-name">Enter Username:</label>
+            <input id="user-name" type="text" name="username" placeholder="Enter Username"> <br>
+            <label for="qualification">Enter Qualification:</label>
+            <input id="qualification" type="text" name="qualification" placeholder="Enter Qualification"> <br>
+            <button id="start-quiz" type="submit">Start Quiz</button>
+        </form>
+    </div>
+
+    <script src="welcome.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Question 5</title>
+    <link rel="stylesheet" href="quizq1.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="question" id="q5">
+            <h1>5. Which company developed JavaScript?</h1>
+            <div class="options">
+                <input type="radio"id="optionA" name="q5" value="A">
+                <label>A) Microsoft</label><br>
+                <input type="radio"id="optionA" name="q5" value="A">
+                <label>B) Netscape</label><br>
+                <input type="radio"id="optionA" name="q5" value="A">
+                <label>C) Google</label><br>
+                <input type="radio"id="optionA" name="q5" value="A">
+                <label>D) Apple</label>
+            </div>
+
+            <button id="finishBtn" onclick="submitFinalAnswer()">Finish Quiz</button>
+            <!-- <button id="nextBtn" onclick="submitanswer()">Next</button> -->
+            <!-- <button id="nextBtn" onclick="navigate(1)">Finish</button> -->
+        </div>
+        <div id="scoreDisplay">
+            score: 0
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

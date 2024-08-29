@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(110, 103, 103);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(122, 177, 177);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(92, 75, 75, 0.897);
+}
+
+h1 {
+    color: rgb(125, 165, 201);
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.question {
+    background-color: rgb(241, 239, 239);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#nextBtn {
+    color: rgb(210, 215, 219);
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: rgb(125, 134, 120);
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#nextBtn:hover {
+    background-color: rgb(55, 121, 31);
+}
+
+#finishBtn {
+    color: rgb(210, 215, 219);
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: rgb(125, 134, 120);
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#finishBtn:hover {
+    background-color: rgb(76, 106, 189);
+}
